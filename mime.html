@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find the MIME</title>
+  </head>
+	
+	<body>
+		<p>
+			Choose any File : 
+			<input type="file" id="files">
+		</p>
+		<p>
+			File Type : 
+			<span id="result"></span>
+		</p>
+		<script>
+			var inp = document.getElementById("files");
+			var res = document.getElementById("result");
+			inp.onchange = function(e) {
+			  var reader = new FileReader();
+			  reader.onload = analyze;
+			  reader.readAsArrayBuffer(e.target.files[0]);
+			};
+
+			function analyze(e) {
+				console.log(e);
+				var buffer = e.target.result;
+				var view = new DataView(buffer);
+				
+				var arr = (new Uint8Array(e.target.result)).subarray(0, 4);
+				var header = "";
+				for (var i = 0; i < arr.length; i++)
+					header += arr[i].toString(16);
+
+				// var blob;
+
+				// check file type
+				// if (view.getUint32(4) !== 0x66747970) {
+				// 	res.innerHTML="Please choose a video file!";
+				// 	return;
+				// }
+				var type = getMIME(header);
+				res.innerHTML = type;
+				console.log(header);
+				// check if audio or audio+video
+				// if (view.getUint32(8) === 0x64617368) {                    // = "dash"
+				// 	alert("Audio\n(See console for example url)");
+				// 	blob = new Blob([buffer], {type: "audio/mp4"});
+				// }
+				// else if (view.getUint32(8) === 0x6D703432 ||               // = "mp42"
+				// 	view.getUint32(8) === 0x69736F6D) {               // = "isom"
+				// 		alert("Video+Audio\n(See console for example url)");
+				// 		blob = new Blob([buffer], {type: "video/mp4"});
+				// }
+				// else {                                                    // assume video/mp4
+				// 	alert("Unsupported:\n0x" + (view.getUint32(8)).toString(16));
+				// 	blob = new Blob([buffer], {type: "video/mp4"});
+				// }
+			}
+
+			function getMIME(e){
+				switch (e) {
+		            case '89504e47':
+		                return 'image/png';
+		            case '47494638':
+		                return 'image/gif';
+		            case '25504446':
+		                return 'application/pdf';
+		            case 'ffd8ffe0':
+		            case 'ffd8ffe1':
+		            case 'ffd8ffe2':
+		            case 'ffd8ffe3':
+		            case 'ffd8ffe8':
+		                return 'image/jpeg';
+		            case '504b34':
+		                return 'application/zip';
+					case '001fae':
+					case '66747970':
+					case '00014':
+		                return 'video/quicktime';
+		            case '00018':
+		            case '00020':
+		            case '0001c':
+		                return 'video/mp4';
+		            case '001ba':
+		            	return 'video/MPEG';
+		            case '1a45dfa3':
+		            	return 'video/webm';
+		           	case '464c561':
+		           		return 'video/FLV';
+		           	case '4f676753':
+		           		return 'video/ogv';
+		           	case '52494646':
+		           		return 'video/AVI';
+		            default:
+		                return 'Unknown filetype'
+		        }
+			}
+		</script>
+	</body>
+</html>
