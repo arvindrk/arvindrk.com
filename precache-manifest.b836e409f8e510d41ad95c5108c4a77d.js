@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "93abdf005e6c80f81ebd",
+    "revision": "bb685597a8fdae7c5f01",
     "url": "/css/app.b59a8d11.css"
   },
   {
-    "revision": "93abdf005e6c80f81ebd",
-    "url": "/js/app.975c9d00.js"
+    "revision": "bb685597a8fdae7c5f01",
+    "url": "/js/app.c2b84daa.js"
   },
   {
     "revision": "4503b6fdca17a5c26f5e",
@@ -16,36 +16,36 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.28c76849.js"
   },
   {
-    "revision": "063d6cff7438e8c97f4a6d452e3aef88",
+    "revision": "64772e865b000f08d04b8543ead4a4a2",
     "url": "/index.html"
-  },
-  {
-    "revision": "dcf70311333833bd34f350118ef3f644",
-    "url": "/fonts/SF-UI-Text-Light.woff"
   },
   {
     "revision": "f79ef62801d1c171375782155a25348b",
     "url": "/fonts/SF-UI-Text-Bold.woff"
   },
   {
-    "revision": "b01b6cbac3b12706f3cdd3bc3d5f9e06",
-    "url": "/fonts/SF-UI-Text-RegularItalic.woff"
-  },
-  {
-    "revision": "df14d76c032f4038346697b1dc32c562",
-    "url": "/fonts/SF-UI-Text-Regular.woff"
+    "revision": "dcf70311333833bd34f350118ef3f644",
+    "url": "/fonts/SF-UI-Text-Light.woff"
   },
   {
     "revision": "a0551c66f62ad6916a46b1169d7474df",
     "url": "/fonts/SF-UI-Text-Heavy.woff"
   },
   {
-    "revision": "91f3f187d397377ec60e0087a6f10e46",
-    "url": "/Resume-Arvind-Rk.pdf"
+    "revision": "df14d76c032f4038346697b1dc32c562",
+    "url": "/fonts/SF-UI-Text-Regular.woff"
+  },
+  {
+    "revision": "b01b6cbac3b12706f3cdd3bc3d5f9e06",
+    "url": "/fonts/SF-UI-Text-RegularItalic.woff"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "e46b194f67bc48d6794d2fe1d2bfe14f",
+    "url": "/Resume-Arvind-Rk.pdf"
   },
   {
     "revision": "79f897b1488e7abc491ceca9d2372927",
