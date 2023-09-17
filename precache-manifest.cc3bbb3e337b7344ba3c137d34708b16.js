@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bb685597a8fdae7c5f01",
+    "revision": "371089443891c3898357",
     "url": "/css/app.b59a8d11.css"
   },
   {
-    "revision": "bb685597a8fdae7c5f01",
-    "url": "/js/app.c2b84daa.js"
+    "revision": "371089443891c3898357",
+    "url": "/js/app.908f8426.js"
   },
   {
     "revision": "4503b6fdca17a5c26f5e",
@@ -16,12 +16,8 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.28c76849.js"
   },
   {
-    "revision": "64772e865b000f08d04b8543ead4a4a2",
+    "revision": "5f1244c7626f6e8b2f20e86b38879da2",
     "url": "/index.html"
-  },
-  {
-    "revision": "f79ef62801d1c171375782155a25348b",
-    "url": "/fonts/SF-UI-Text-Bold.woff"
   },
   {
     "revision": "dcf70311333833bd34f350118ef3f644",
@@ -30,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "a0551c66f62ad6916a46b1169d7474df",
     "url": "/fonts/SF-UI-Text-Heavy.woff"
+  },
+  {
+    "revision": "f79ef62801d1c171375782155a25348b",
+    "url": "/fonts/SF-UI-Text-Bold.woff"
   },
   {
     "revision": "df14d76c032f4038346697b1dc32c562",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "e46b194f67bc48d6794d2fe1d2bfe14f",
+    "revision": "1caf9da415a41a165b478f49ddd5d1a9",
     "url": "/Resume-Arvind-Rk.pdf"
   },
   {
