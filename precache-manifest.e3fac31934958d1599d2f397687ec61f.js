@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e6a6b19df166a4ccc59d",
+    "revision": "85d81fa8b7b60014d7c7",
     "url": "/css/app.b59a8d11.css"
   },
   {
-    "revision": "e6a6b19df166a4ccc59d",
-    "url": "/js/app.949a74c3.js"
+    "revision": "85d81fa8b7b60014d7c7",
+    "url": "/js/app.62769cf5.js"
   },
   {
     "revision": "c07c431ebc232c76f9b0",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.7c8e1b0c.js"
   },
   {
-    "revision": "1db0549ecdf1bac8f18e5260e253bca1",
+    "revision": "63ee78a66280822a8ac57e6f14f82b52",
     "url": "/index.html"
   },
   {
@@ -40,8 +40,20 @@ self.__precacheManifest = [
     "url": "/fonts/SF-UI-Text-RegularItalic.woff"
   },
   {
+    "revision": "1377f1d159506432153b107cc61d6ce0",
+    "url": "/img/handsome-mobile.webp"
+  },
+  {
+    "revision": "ed60f2bfcb231a9e30ed729750899121",
+    "url": "/img/handsome-tablet.webp"
+  },
+  {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "8780addd7fdd0dbed4b1e1fba7b63c8f",
+    "url": "/img/handsome-desktop.webp"
   },
   {
     "revision": "0a5f808fe644457208dc9ceba83ef25e",
