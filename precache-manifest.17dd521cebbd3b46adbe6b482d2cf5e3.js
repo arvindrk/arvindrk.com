@@ -1,27 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "8c74d5713b318d7bbc45",
-    "url": "/css/app.b59a8d11.css"
+    "revision": "1d1e6013e490c239864c",
+    "url": "/css/app.af4e2450.css"
   },
   {
-    "revision": "8c74d5713b318d7bbc45",
-    "url": "/js/app.3e1c09f9.js"
+    "revision": "1d1e6013e490c239864c",
+    "url": "/js/app.314ae899.js"
   },
   {
     "revision": "c07c431ebc232c76f9b0",
     "url": "/js/chunk-2d212b4a.0628bab3.js"
   },
   {
-    "revision": "b3aa005174e2d2990add",
-    "url": "/js/chunk-vendors.7c8e1b0c.js"
+    "revision": "63cea03461b906c9c247",
+    "url": "/js/chunk-vendors.77dd4119.js"
   },
   {
-    "revision": "e5c1f40d077ef9bb9c0bdae17fd0d67c",
+    "revision": "e6fc81556bdf167cab046502dab5b728",
     "url": "/index.html"
-  },
-  {
-    "revision": "df14d76c032f4038346697b1dc32c562",
-    "url": "/fonts/SF-UI-Text-Regular.woff"
   },
   {
     "revision": "f79ef62801d1c171375782155a25348b",
@@ -32,8 +28,8 @@ self.__precacheManifest = [
     "url": "/fonts/SF-UI-Text-Heavy.woff"
   },
   {
-    "revision": "b01b6cbac3b12706f3cdd3bc3d5f9e06",
-    "url": "/fonts/SF-UI-Text-RegularItalic.woff"
+    "revision": "df14d76c032f4038346697b1dc32c562",
+    "url": "/fonts/SF-UI-Text-Regular.woff"
   },
   {
     "revision": "dcf70311333833bd34f350118ef3f644",
@@ -44,6 +40,10 @@ self.__precacheManifest = [
     "url": "/img/handsome-mobile.webp"
   },
   {
+    "revision": "b01b6cbac3b12706f3cdd3bc3d5f9e06",
+    "url": "/fonts/SF-UI-Text-RegularItalic.woff"
+  },
+  {
     "revision": "ed60f2bfcb231a9e30ed729750899121",
     "url": "/img/handsome-tablet.webp"
   },
@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
+    "revision": "c64909eaeb61720fbd8c4011e578b4f0",
+    "url": "/Resume-Arvind-Rk.pdf"
+  },
+  {
     "revision": "8780addd7fdd0dbed4b1e1fba7b63c8f",
     "url": "/img/handsome-desktop.webp"
   },
   {
     "revision": "0a5f808fe644457208dc9ceba83ef25e",
     "url": "/Resume-Arvind.pdf"
-  },
-  {
-    "revision": "c64909eaeb61720fbd8c4011e578b4f0",
-    "url": "/Resume-Arvind-Rk.pdf"
   },
   {
     "revision": "dfa9ef7115aac5ca5fdea81cf6704bc9",
