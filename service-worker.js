@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.398662be98e713999a7f6430d4a62ec3.js"
+  "/precache-manifest.2e2b50ff91f8a9cc3801a072ff43e79a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "arvindrk.com"});

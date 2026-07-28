@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ff49de19656c16a742dd",
+    "revision": "d0022142058c6ef2f6cf",
     "url": "/css/app.af4e2450.css"
   },
   {
-    "revision": "ff49de19656c16a742dd",
-    "url": "/js/app.5e9c8922.js"
+    "revision": "d0022142058c6ef2f6cf",
+    "url": "/js/app.860573a7.js"
   },
   {
     "revision": "c07c431ebc232c76f9b0",
@@ -16,8 +16,12 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.d79e8bb8.js"
   },
   {
-    "revision": "8e026d52769697c22f63c157c6c96249",
+    "revision": "8962c09ebb02fb99892afdf0e3b8737f",
     "url": "/index.html"
+  },
+  {
+    "revision": "2efda873a5924d6a3a5d672cf9cad18e",
+    "url": "/blog/index.html"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
@@ -28,24 +32,20 @@ self.__precacheManifest = [
     "url": "/CNAME"
   },
   {
-    "revision": "2efda873a5924d6a3a5d672cf9cad18e",
-    "url": "/blog/index.html"
-  },
-  {
-    "revision": "f79ef62801d1c171375782155a25348b",
-    "url": "/fonts/SF-UI-Text-Bold.woff"
-  },
-  {
     "revision": "a0551c66f62ad6916a46b1169d7474df",
     "url": "/fonts/SF-UI-Text-Heavy.woff"
+  },
+  {
+    "revision": "df14d76c032f4038346697b1dc32c562",
+    "url": "/fonts/SF-UI-Text-Regular.woff"
   },
   {
     "revision": "93081f35c495867e554e5ced50f92f8f",
     "url": "/github/index.html"
   },
   {
-    "revision": "df14d76c032f4038346697b1dc32c562",
-    "url": "/fonts/SF-UI-Text-Regular.woff"
+    "revision": "f79ef62801d1c171375782155a25348b",
+    "url": "/fonts/SF-UI-Text-Bold.woff"
   },
   {
     "revision": "dcf70311333833bd34f350118ef3f644",
@@ -72,15 +72,7 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "f3adee550d4ae25b43b559db19702253",
-    "url": "/skill/index.html"
-  },
-  {
-    "revision": "200a1aa98c48a3a857b6eed93fd9f83b",
-    "url": "/twitter/index.html"
-  },
-  {
-    "revision": "038119b7a2a893fcd38a73dcd94388bb",
+    "revision": "ab1b5292d248437fafe55b7c276de892",
     "url": "/Resume-Arvind-Rk.pdf"
   },
   {
@@ -88,8 +80,16 @@ self.__precacheManifest = [
     "url": "/img/handsome-desktop.webp"
   },
   {
+    "revision": "200a1aa98c48a3a857b6eed93fd9f83b",
+    "url": "/twitter/index.html"
+  },
+  {
     "revision": "0a5f808fe644457208dc9ceba83ef25e",
     "url": "/Resume-Arvind.pdf"
+  },
+  {
+    "revision": "f3adee550d4ae25b43b559db19702253",
+    "url": "/skill/index.html"
   },
   {
     "revision": "dfa9ef7115aac5ca5fdea81cf6704bc9",
